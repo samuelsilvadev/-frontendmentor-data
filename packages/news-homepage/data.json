@@ -1,7 +1,7 @@
 {
     "menus": [
         {
-            "title": "Home",
+            "title": "Homepage",
             "path": "/"
         },
         {
