@@ -15,10 +15,6 @@
         {
             "title": "Trending",
             "path": "/"
-        },
-        {
-            "title": "Categories",
-            "path": "/"
         }
     ],
     "posts-recommendations": [
