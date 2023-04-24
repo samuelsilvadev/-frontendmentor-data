@@ -1,0 +1,50 @@
+{
+    "menus": [
+        {
+            "title": "Home",
+            "path": "/"
+        },
+        {
+            "title": "New",
+            "path": "/"
+        },
+        {
+            "title": "Popular",
+            "path": "/"
+        },
+        {
+            "title": "Trending",
+            "path": "/"
+        },
+        {
+            "title": "Categories",
+            "path": "/"
+        }
+    ],
+    "posts-recommendations": [
+        {
+            "title": "Reviving retro pc's",
+            "subtitle": "Tempor nostrud sit consectetur aliquip et occaecat minim eu.",
+            "image": {
+                "alt": "Old white pc",
+                "src": "/image-retro-pcs.jpg"
+            }
+        },
+        {
+            "title": "Top 10 laptops of 2022",
+            "subtitle": "Tempor nostrud sit consectetur aliquip et occaecat minim eu.",
+            "image": {
+                "alt": "Some keys of a keyboard with red light",
+                "src": "/image-top-laptops.jpg"
+            }
+        },
+        {
+            "title": "The Growth of Gaming",
+            "subtitle": "Tempor nostrud sit consectetur aliquip et occaecat minim eu.",
+            "image": {
+                "alt": "A hand below a white floating controller",
+                "src": "/image-gaming-growth.jpg"
+            }
+        }
+    ]
+}
