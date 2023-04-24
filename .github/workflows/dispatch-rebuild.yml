@@ -1,0 +1,22 @@
+on: [push]
+jobs:
+  dispatch-rebuild:
+    name: "Send event to `frontendmentor` repository"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.PAT_TOKEN_FRONTEND_MENTOR_DATA }}
+        script: |
+          try {
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'samuelsilvadev',
+              repo: 'frontendmentor',
+              workflow_id: 'start-rebuild.yml',
+              ref: 'main'
+            });
+            
+            console.log("✅ Successfully sent event");
+          } catch (e) {
+            console.error("💥 Something wen wrong", e);
+          }
