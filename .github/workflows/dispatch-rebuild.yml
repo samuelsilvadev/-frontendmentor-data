@@ -7,6 +7,10 @@ jobs:
     name: "Dispatch rebuild event"
     runs-on: ubuntu-latest
     steps:
+    - name: "Wait for 1 minute"
+      run: sleep 1m
+      shell: bash
+
     - uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.PAT_TOKEN_FRONTEND_MENTOR_DATA }}
