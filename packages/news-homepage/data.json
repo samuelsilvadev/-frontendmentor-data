@@ -19,6 +19,10 @@
         {
             "title": "Categories",
             "path": "/"
+        },
+        {
+            "title": "About",
+            "path": "/"
         }
     ],
     "posts-recommendations": [
