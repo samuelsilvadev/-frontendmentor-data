@@ -58,5 +58,19 @@
                 "src": "/image-gaming-growth.jpg"
             }
         }
+    ],
+    "related-posts": [
+        {
+            "title": "Related post 1",
+            "subtitle": "Tempor nostrud sit consectetur aliquip et occaecat minim eu."
+        },
+        {
+            "title": "Related post 2",
+            "subtitle": "Tempor nostrud sit consectetur aliquip et occaecat minim eu."
+        },
+        {
+            "title": "Related post 3",
+            "subtitle": "Tempor nostrud sit consectetur aliquip et occaecat minim eu."
+        }
     ]
 }
