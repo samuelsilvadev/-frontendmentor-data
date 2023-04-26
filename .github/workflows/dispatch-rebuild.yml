@@ -7,6 +7,12 @@ jobs:
     name: "Dispatch rebuild event"
     runs-on: ubuntu-latest
     steps:
+    # This is needed due to `cache-control: max-age=300` header applied on response from raw content by github.
+    # It's being added 1 more minute to be sure the data is updated before send the notification.
+    - name: "Wait for 6 minutes"
+      run: sleep 6m
+      shell: bash
+
     - uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.PAT_TOKEN_FRONTEND_MENTOR_DATA }}
