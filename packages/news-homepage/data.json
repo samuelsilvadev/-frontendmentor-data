@@ -27,6 +27,10 @@
         {
             "title": "About",
             "path": "/"
+        },
+        {
+            "title": "Old",
+            "path": "/"
         }
     ],
     "posts-recommendations": [
